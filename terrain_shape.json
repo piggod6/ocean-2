@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:overworld/continents",
+    "points": [
+      {
+        "location": -1.1,
+        "value": -3.15,
+        "derivative": 0.0
+      },
+      {
+        "location": -0.8,
+        "value": -3.1,
+        "derivative": 0.0
+      },
+      {
+        "location": -0.6,
+        "value": -2.65,
+        "derivative": 0.0
+      },
+      {
+        "location": -0.455,
+        "value": -1.65,
+        "derivative": 0.0
+      },
+      {
+        "location": -0.3,
+        "value": -0.55,
+        "derivative": 0.0
+      },
+      {
+        "location": -0.19,
+        "value": -0.13,
+        "derivative": 0.0
+      },
+      {
+        "location": -0.11,
+        "value": 0.0,
+        "derivative": 0.0
+      },
+      {
+        "location": 0.03,
+        "value": {
+          "coordinate": "minecraft:overworld/erosion",
+          "points": [
+            {
+              "location": -1.0,
+              "value": 0.25,
+              "derivative": 0.0
+            },
+            {
+              "location": 1.0,
+              "value": 0.05,
+              "derivative": 0.0
+            }
+          ]
+        },
+        "derivative": 0.0
+      },
+      {
+        "location": 0.4,
+        "value": {
+          "coordinate": "minecraft:overworld/erosion",
+          "points": [
+            {
+              "location": -1.0,
+              "value": 0.78,
+              "derivative": 0.0
+            },
+            {
+              "location": -0.4,
+              "value": 0.5,
+              "derivative": 0.0
+            },
+            {
+              "location": 0.5,
+              "value": 0.18,
+              "derivative": 0.0
+            },
+            {
+              "location": 1.0,
+              "value": 0.08,
+              "derivative": 0.0
+            }
+          ]
+        },
+        "derivative": 0.0
+      },
+      {
+        "location": 1.1,
+        "value": {
+          "coordinate": "minecraft:overworld/erosion",
+          "points": [
+            {
+              "location": -1.0,
+              "value": 0.82,
+              "derivative": 0.0
+            },
+            {
+              "location": -0.4,
+              "value": 0.58,
+              "derivative": 0.0
+            },
+            {
+              "location": 0.5,
+              "value": 0.2,
+              "derivative": 0.0
+            },
+            {
+              "location": 1.0,
+              "value": 0.08,
+              "derivative": 0.0
+            }
+          ]
+        },
+        "derivative": 0.0
+      }
+    ]
+  }
+}

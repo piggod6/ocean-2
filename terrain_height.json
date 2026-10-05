@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": "deepocean:terrain_shape",
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": 0.06,
+      "argument2": {
+        "type": "minecraft:noise",
+        "noise": "minecraft:jagged",
+        "xz_scale": 1500.0,
+        "y_scale": 0.0
+      }
+    }
+  }
+}
